@@ -6,6 +6,9 @@ import router from './router'
 import elementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+/** 全局注册axios */
+import axios from "axios";
+Vue.prototype.axios = axios;
 
 Vue.config.productionTip = false
 
@@ -13,9 +16,11 @@ Vue.config.productionTip = false
 Vue.use(elementUI)
 
 /* eslint-disable no-new */
-new Vue({
+const app = new Vue({
   el: '#app',
   router,
   components: { App },
   template: '<App/>'
-})
+});
+
+export default app;
