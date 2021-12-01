@@ -1,6 +1,6 @@
 # VueLittleBug
 
-> create by wzc target is become strong
+> Vue project for LittleBug Project
 
 ## Build Setup
 

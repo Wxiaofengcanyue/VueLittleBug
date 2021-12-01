@@ -2,7 +2,7 @@
     <div class="login">
 
         <el-form class="login-form" :model="loginForm">
-            <h1>dsp数据服务平台</h1>
+            <h1>LittleBug服务平台</h1>
             <el-form-item prop="username">
                 <el-input type="text" placeholder="账号" v-model="loginForm.username" suffix-icon="el-icon-user-solid">
                 </el-input>
